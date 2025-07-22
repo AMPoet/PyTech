@@ -11,18 +11,18 @@ from appwrite.services.functions import Functions
 from appwrite.exception import AppwriteException
 
 # تنظیمات Appwrite
-APPWRITE_ENDPOINT = "https://cloud.appwrite.io/v1"
-APPWRITE_PROJECT_ID = "pytechid"
-APPWRITE_API_KEY = "standard_0486bbb3e6c1e5d3efccdb4f6a81030ab94b0fb01c0a8004d849f0559efa973d93929068b59e91702095a7348f1406fbe78c099c4e94fd2436fad457d99b2d1f1004b6804b6f185c9ed719a55f592aa43e45e0a1d10a647c92b8c58072713878b02634f2168f5e139178deea059b4c8b22e80aeac98c2ebf17ba6511fe5f7697"
-APPWRITE_DATABASE_ID = "pytechdb"
-APPWRITE_COLLECTION_ID = "685e8e8e002b7f7fe1bb"
-APPWRITE_MESSAGES_COLLECTION_ID = "messages_collection"
-APPWRITE_FAILED_MESSAGES_COLLECTION_ID = "failed_messages"
+APPWRITE_ENDPOINT = ""
+APPWRITE_PROJECT_ID = ""
+APPWRITE_API_KEY = ""
+APPWRITE_DATABASE_ID = ""
+APPWRITE_COLLECTION_ID = ""
+APPWRITE_MESSAGES_COLLECTION_ID = ""
+APPWRITE_FAILED_MESSAGES_COLLECTION_ID = ""
 
 # تنظیمات Telegram و Gemini
-TELEGRAM_TOKEN = "7271557342:AAEVehvcTobrvAs_E-ZFRuXEuiqAruyf3yM"
-GEMINI_API_KEY = "AIzaSyDLtOyK_qxCA22rygdNvayexCyGxKyaUls"
-GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
+TELEGRAM_TOKEN = ""
+GEMINI_API_KEY = ""
+GEMINI_API_URL = ""
 
 # پرامپت سیستمی
 SYSTEM_PROMPT = """سلام! من PyTech هستم، یک دستیار برنامه‌نویسی هوشمند که توسط تیم HiTech ساخته شده‌ام. وظایف من عبارتند از:
